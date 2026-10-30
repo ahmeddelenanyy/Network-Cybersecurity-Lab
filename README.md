@@ -20,15 +20,18 @@ To make sure the VM runs smoothly during the labs, I configured it with the foll
 
 ### Step 1: Importing the VM
 Downloaded the pre-built Kali Linux image and imported the `.vbox` file into VirtualBox.
-![Importing VM](image.png)
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/ffe82335-69a2-4b5f-b446-a80b4a228856" />
+
 
 ### Step 2: Hardware Allocation
 Adjusted the system settings, allocating 4GB of RAM and 2 CPU cores to ensure good performance.
-![System Configuration](image_2.png)
+<img width="1600" height="900" alt="WhatsApp Image 2026-10-30 at 8 21 39 PM (1)" src="https://github.com/user-attachments/assets/9d9e702d-8890-4201-969d-1462c87f856e" />
+
 
 ### Step 3: Network Configuration
 Set up a dedicated **NAT Network** (10.0.0.0/24) with DHCP enabled. This is an important step for future labs to allow VMs to communicate with each other securely while maintaining internet access.
-![Network Configuration](image_3.png)
+<img width="1600" height="900" alt="WhatsApp Image 2026-10-30 at 8 21 39 PM (2)" src="https://github.com/user-attachments/assets/e006f42e-93e6-461f-bbec-e8b6665fa4c0" />
+
 
 ### Step 4: System Update
 Booted up the machine and updated the system packages to get everything ready using the terminal:
